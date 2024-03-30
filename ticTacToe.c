@@ -25,15 +25,6 @@ char opponent[15];
 int roundsPlayed = 0;
 
 int main(int argc, char *argv[]) {
-    int *availableSpots = checkAvailableSpots(board);
-    if(availableSpots) {
-        for(int i = 0; i < 8; i++){
-            printf("%d ", availableSpots[i]);
-        }
-        free(availableSpots);
-    }
-    
-    printf("%d\n", availableSpots[8]);
     // random time based on nano seconds
     struct timespec ts;
     clock_gettime(CLOCK_MONOTONIC, &ts);

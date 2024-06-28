@@ -10,5 +10,5 @@ printf("2nd argument --> 2: player 2 or computer begins\n");\
 
 ### Contents:
 - minimax algorithm when playing the computer (code for random computer moves is commented)
-- random is ns random, as close as true random as computers get
+- random is ns random
 - provides a few (not yet optimized) functions for game management

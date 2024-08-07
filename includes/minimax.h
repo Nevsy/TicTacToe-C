@@ -1,0 +1,1 @@
+int *miniMaxInitCall(int boardInput[3][3], int player);

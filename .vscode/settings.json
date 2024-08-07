@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"variables.h": "c",
+		"helper.h": "c",
+		"minimax.h": "c"
+	}
+}
